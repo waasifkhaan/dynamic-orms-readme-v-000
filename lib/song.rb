@@ -19,8 +19,7 @@ class Song
       column_names << row["name"]
       
     end
-    column_names.compact
-    binding.pry
+    column_names
     
   end
 
