@@ -17,8 +17,10 @@ class Song
     column_names = []
     table_info.each do |row|
       column_names << row["name"]
+      
     end
     column_names.compact
+    binding.pry
   end
 
   self.column_names.each do |col_name|
