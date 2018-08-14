@@ -20,6 +20,7 @@ class Song
       
     end
     column_names.compact
+    binding.pry
     
   end
 
