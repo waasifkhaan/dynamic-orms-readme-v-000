@@ -12,4 +12,4 @@ puts "song album: " + song.album
 song.save
 
 DB[:conn].execute("SELECT * FROM songs")
-Song.column_names
+Song.values_for_insert
